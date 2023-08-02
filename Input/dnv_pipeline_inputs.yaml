@@ -1,0 +1,14 @@
+USER_VARIABLE:
+  case_path: ./data/FM_WY4CENT2.csv
+  case_group: coding_de_novo_filtering_pipeline
+
+DNV_FILTERING_VARIABLE:
+  case: 500
+  read_depth: 20
+  min_AD_alt: 4
+  external_MAF: 0.00001
+  binomial_test: 0.00001
+  prop_missing_allele: .20
+  geno_qual: 20
+
+
